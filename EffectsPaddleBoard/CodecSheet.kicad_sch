@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Effects Paddle")
+    (date "2023-07-01")
+    (rev "0.1")
+    (company "Selbstständig")
+  )
+
   (lib_symbols
     (symbol "Audio:TLV320AIC3100" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -15.24 20.32 0)
