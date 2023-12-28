@@ -1567,8 +1567,8 @@
     (property "Datasheet" "~" (at 267.97 122.555 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7f6b4d91-6486-41ad-b527-3e716b14146f))
-    (pin "2" (uuid 059a54fa-33ee-408d-b8ba-78604f5d1964))
+    (pin "1" (uuid f21375f5-0095-4ad1-aca0-bb5ca3ec7f30))
+    (pin "2" (uuid 246143de-ad62-4a27-bfc1-456c24225ed8))
     (instances
       (project "EffectsPaddleBoard"
         (path "/40bb1606-5207-4492-95b9-876879aab2b4/6d4c49e4-58ce-454c-b038-5a90177f6bee"
@@ -2269,8 +2269,8 @@
     (property "Datasheet" "~" (at 256.54 122.555 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ac7d245c-65bf-4665-b4d7-017e57a5a696))
-    (pin "2" (uuid d3b5336d-fb7a-4147-8f5a-ceaffefaea2a))
+    (pin "1" (uuid 0372d534-5f16-4e2b-82fa-26417300e8b0))
+    (pin "2" (uuid 9928a89b-79f4-40c2-a467-bf1cb2eeeb29))
     (instances
       (project "EffectsPaddleBoard"
         (path "/40bb1606-5207-4492-95b9-876879aab2b4/6d4c49e4-58ce-454c-b038-5a90177f6bee"
