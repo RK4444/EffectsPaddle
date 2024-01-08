@@ -574,8 +574,11 @@
       "version": 3
     },
     "net_colors": {
+      "+1V8": "rgb(195, 172, 7)",
       "+3.3V": "rgb(51, 144, 8)",
+      "+3.3VA": "rgb(24, 72, 20)",
       "+5V": "rgb(10, 76, 79)",
+      "+5VA": "rgb(9, 7, 117)",
       "GND": "rgb(27, 28, 113)"
     },
     "netclass_assignments": null,
