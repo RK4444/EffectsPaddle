@@ -2958,9 +2958,6 @@
         (path "/40bb1606-5207-4492-95b9-876879aab2b4/430de8a6-c174-447f-a683-0bfbe392d7bf"
           (reference "SW3") (unit 1)
         )
-        (path "/40bb1606-5207-4492-95b9-876879aab2b4"
-          (reference "SW3") (unit 1)
-        )
       )
     )
   )

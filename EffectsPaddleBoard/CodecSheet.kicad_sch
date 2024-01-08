@@ -1342,7 +1342,7 @@
   (symbol (lib_id "power:GND") (at 236.22 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 06835a9c-0f77-4c26-ab3f-3f52e5f43900)
-    (property "Reference" "#PWR07" (at 236.22 54.61 0)
+    (property "Reference" "#PWR021" (at 236.22 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 236.22 53.34 0)
@@ -1357,9 +1357,6 @@
     (pin "1" (uuid 7f732b4b-41a5-493c-a88f-6f5267518cb6))
     (instances
       (project "EffectsPaddleBoard"
-        (path "/40bb1606-5207-4492-95b9-876879aab2b4/430de8a6-c174-447f-a683-0bfbe392d7bf"
-          (reference "#PWR07") (unit 1)
-        )
         (path "/40bb1606-5207-4492-95b9-876879aab2b4/6d4c49e4-58ce-454c-b038-5a90177f6bee"
           (reference "#PWR021") (unit 1)
         )
@@ -1440,7 +1437,7 @@
   (symbol (lib_id "power:GND") (at 267.97 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 15a637b3-c0f7-4497-b79d-5f8844f0ab80)
-    (property "Reference" "#PWR07" (at 267.97 54.61 0)
+    (property "Reference" "#PWR022" (at 267.97 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 267.97 53.34 0)
@@ -1455,9 +1452,6 @@
     (pin "1" (uuid 3509b2f4-6d3b-4748-ae6a-0dbd577c589f))
     (instances
       (project "EffectsPaddleBoard"
-        (path "/40bb1606-5207-4492-95b9-876879aab2b4/430de8a6-c174-447f-a683-0bfbe392d7bf"
-          (reference "#PWR07") (unit 1)
-        )
         (path "/40bb1606-5207-4492-95b9-876879aab2b4/6d4c49e4-58ce-454c-b038-5a90177f6bee"
           (reference "#PWR022") (unit 1)
         )
@@ -1607,7 +1601,7 @@
   (symbol (lib_id "power:+3.3V") (at 84.455 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2d6c3f07-c250-49c1-a8e1-ea8cb020f202)
-    (property "Reference" "#PWR04" (at 84.455 88.9 0)
+    (property "Reference" "#PWR018" (at 84.455 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 84.455 81.28 0)
@@ -1622,9 +1616,6 @@
     (pin "1" (uuid 1028af76-d43e-4afb-bfc4-bf0bbd4e454b))
     (instances
       (project "EffectsPaddleBoard"
-        (path "/40bb1606-5207-4492-95b9-876879aab2b4/430de8a6-c174-447f-a683-0bfbe392d7bf"
-          (reference "#PWR04") (unit 1)
-        )
         (path "/40bb1606-5207-4492-95b9-876879aab2b4/6d4c49e4-58ce-454c-b038-5a90177f6bee"
           (reference "#PWR018") (unit 1)
         )
@@ -1635,7 +1626,7 @@
   (symbol (lib_id "power:GND") (at 120.015 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3059e53a-ecb0-4f1c-a221-9f808a0c3200)
-    (property "Reference" "#PWR07" (at 120.015 147.32 0)
+    (property "Reference" "#PWR020" (at 120.015 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 120.015 146.05 0)
@@ -1650,9 +1641,6 @@
     (pin "1" (uuid 0a5bd1bd-d5a9-495c-a982-a2ef9edc3f17))
     (instances
       (project "EffectsPaddleBoard"
-        (path "/40bb1606-5207-4492-95b9-876879aab2b4/430de8a6-c174-447f-a683-0bfbe392d7bf"
-          (reference "#PWR07") (unit 1)
-        )
         (path "/40bb1606-5207-4492-95b9-876879aab2b4/6d4c49e4-58ce-454c-b038-5a90177f6bee"
           (reference "#PWR020") (unit 1)
         )
@@ -1698,7 +1686,7 @@
   (symbol (lib_id "power:+3.3VA") (at 109.855 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3e854574-0033-4261-b318-eda763aba70c)
-    (property "Reference" "#PWR033" (at 109.855 72.39 0)
+    (property "Reference" "#PWR036" (at 109.855 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VA" (at 109.855 65.405 0)
@@ -1713,9 +1701,6 @@
     (pin "1" (uuid 7493a26c-c906-421a-b191-82bf86c25799))
     (instances
       (project "EffectsPaddleBoard"
-        (path "/40bb1606-5207-4492-95b9-876879aab2b4/430de8a6-c174-447f-a683-0bfbe392d7bf"
-          (reference "#PWR033") (unit 1)
-        )
         (path "/40bb1606-5207-4492-95b9-876879aab2b4/6d4c49e4-58ce-454c-b038-5a90177f6bee"
           (reference "#PWR036") (unit 1)
         )
@@ -1726,7 +1711,7 @@
   (symbol (lib_id "power:GND") (at 184.15 146.685 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4236672f-f685-44a1-af8e-45314212ccbb)
-    (property "Reference" "#PWR07" (at 184.15 153.035 0)
+    (property "Reference" "#PWR049" (at 184.15 153.035 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 184.15 151.765 0)
@@ -1741,9 +1726,6 @@
     (pin "1" (uuid 754f72b1-797f-4ff4-a822-8a292538bd71))
     (instances
       (project "EffectsPaddleBoard"
-        (path "/40bb1606-5207-4492-95b9-876879aab2b4/430de8a6-c174-447f-a683-0bfbe392d7bf"
-          (reference "#PWR07") (unit 1)
-        )
         (path "/40bb1606-5207-4492-95b9-876879aab2b4/6d4c49e4-58ce-454c-b038-5a90177f6bee"
           (reference "#PWR049") (unit 1)
         )
@@ -1884,7 +1866,7 @@
   (symbol (lib_id "power:+5V") (at 121.285 88.265 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5d827ff2-9d88-4104-ab6d-3af356ff2755)
-    (property "Reference" "#PWR023" (at 121.285 92.075 0)
+    (property "Reference" "#PWR082" (at 121.285 92.075 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 121.285 84.455 0)
@@ -1899,9 +1881,6 @@
     (pin "1" (uuid 3912b3d2-6a3a-4f06-9a75-e88810e3038d))
     (instances
       (project "EffectsPaddleBoard"
-        (path "/40bb1606-5207-4492-95b9-876879aab2b4"
-          (reference "#PWR023") (unit 1)
-        )
         (path "/40bb1606-5207-4492-95b9-876879aab2b4/6d4c49e4-58ce-454c-b038-5a90177f6bee"
           (reference "#PWR082") (unit 1)
         )
@@ -1912,7 +1891,7 @@
   (symbol (lib_id "power:+1V8") (at 266.7 65.405 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6050a67e-1307-4f4e-a9c2-a3212e9885b3)
-    (property "Reference" "#PWR053" (at 266.7 69.215 0)
+    (property "Reference" "#PWR054" (at 266.7 69.215 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 266.7 61.595 0)
@@ -1927,9 +1906,6 @@
     (pin "1" (uuid d174b451-8f75-4c63-939b-0b842b8648c5))
     (instances
       (project "EffectsPaddleBoard"
-        (path "/40bb1606-5207-4492-95b9-876879aab2b4"
-          (reference "#PWR053") (unit 1)
-        )
         (path "/40bb1606-5207-4492-95b9-876879aab2b4/6d4c49e4-58ce-454c-b038-5a90177f6bee"
           (reference "#PWR054") (unit 1)
         )
@@ -2010,7 +1986,7 @@
   (symbol (lib_id "power:+3.3V") (at 92.71 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7c031d00-ef5f-4788-ad18-2f90641e2e9e)
-    (property "Reference" "#PWR04" (at 92.71 88.9 0)
+    (property "Reference" "#PWR019" (at 92.71 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 92.71 81.28 0)
@@ -2025,9 +2001,6 @@
     (pin "1" (uuid d6cb1950-9019-4bbf-ab5d-c9d1120ec5f5))
     (instances
       (project "EffectsPaddleBoard"
-        (path "/40bb1606-5207-4492-95b9-876879aab2b4/430de8a6-c174-447f-a683-0bfbe392d7bf"
-          (reference "#PWR04") (unit 1)
-        )
         (path "/40bb1606-5207-4492-95b9-876879aab2b4/6d4c49e4-58ce-454c-b038-5a90177f6bee"
           (reference "#PWR019") (unit 1)
         )
@@ -2178,7 +2151,7 @@
   (symbol (lib_id "power:+3.3V") (at 267.97 107.315 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a55f7bb0-f75b-4bdb-9366-581bd1eaf239)
-    (property "Reference" "#PWR04" (at 267.97 111.125 0)
+    (property "Reference" "#PWR050" (at 267.97 111.125 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 267.97 103.505 0)
@@ -2193,9 +2166,6 @@
     (pin "1" (uuid 8ecf5b43-945a-4255-bacd-6dc7b114397c))
     (instances
       (project "EffectsPaddleBoard"
-        (path "/40bb1606-5207-4492-95b9-876879aab2b4/430de8a6-c174-447f-a683-0bfbe392d7bf"
-          (reference "#PWR04") (unit 1)
-        )
         (path "/40bb1606-5207-4492-95b9-876879aab2b4/6d4c49e4-58ce-454c-b038-5a90177f6bee"
           (reference "#PWR050") (unit 1)
         )
@@ -2206,7 +2176,7 @@
   (symbol (lib_id "power:+1V8") (at 112.395 88.265 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a5fec99c-bfee-478a-809a-b6ecfce42b85)
-    (property "Reference" "#PWR053" (at 112.395 92.075 0)
+    (property "Reference" "#PWR081" (at 112.395 92.075 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 112.395 84.455 0)
@@ -2221,9 +2191,6 @@
     (pin "1" (uuid 04bcb104-ba8f-4ba2-9148-8c7e77ed9e1f))
     (instances
       (project "EffectsPaddleBoard"
-        (path "/40bb1606-5207-4492-95b9-876879aab2b4"
-          (reference "#PWR053") (unit 1)
-        )
         (path "/40bb1606-5207-4492-95b9-876879aab2b4/6d4c49e4-58ce-454c-b038-5a90177f6bee"
           (reference "#PWR081") (unit 1)
         )
@@ -2234,7 +2201,7 @@
   (symbol (lib_id "power:GND") (at 73.025 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aad44e68-9bfe-4939-9fdf-99e7750a23ef)
-    (property "Reference" "#PWR07" (at 73.025 52.07 0)
+    (property "Reference" "#PWR039" (at 73.025 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 73.025 50.8 0)
@@ -2249,9 +2216,6 @@
     (pin "1" (uuid 7ff3dd1f-7a9c-47ed-979a-a2e35fbe6b44))
     (instances
       (project "EffectsPaddleBoard"
-        (path "/40bb1606-5207-4492-95b9-876879aab2b4/430de8a6-c174-447f-a683-0bfbe392d7bf"
-          (reference "#PWR07") (unit 1)
-        )
         (path "/40bb1606-5207-4492-95b9-876879aab2b4/6d4c49e4-58ce-454c-b038-5a90177f6bee"
           (reference "#PWR039") (unit 1)
         )
@@ -2262,7 +2226,7 @@
   (symbol (lib_id "power:+3.3VA") (at 78.105 19.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ac956474-be1e-4d95-86d8-4bde9ab415aa)
-    (property "Reference" "#PWR033" (at 78.105 22.86 0)
+    (property "Reference" "#PWR083" (at 78.105 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VA" (at 78.105 15.875 0)
@@ -2277,9 +2241,6 @@
     (pin "1" (uuid bf59708a-ee65-4a35-8bec-8600ad67b1e3))
     (instances
       (project "EffectsPaddleBoard"
-        (path "/40bb1606-5207-4492-95b9-876879aab2b4/430de8a6-c174-447f-a683-0bfbe392d7bf"
-          (reference "#PWR033") (unit 1)
-        )
         (path "/40bb1606-5207-4492-95b9-876879aab2b4/6d4c49e4-58ce-454c-b038-5a90177f6bee"
           (reference "#PWR083") (unit 1)
         )
@@ -2290,7 +2251,7 @@
   (symbol (lib_id "power:GND") (at 48.895 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ac9a2d70-2a81-4095-8bf7-e9c067802ea2)
-    (property "Reference" "#PWR07" (at 48.895 52.07 0)
+    (property "Reference" "#PWR038" (at 48.895 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 48.895 50.8 0)
@@ -2305,9 +2266,6 @@
     (pin "1" (uuid fc09b3ea-64fb-4ef2-bd37-26ac91069e29))
     (instances
       (project "EffectsPaddleBoard"
-        (path "/40bb1606-5207-4492-95b9-876879aab2b4/430de8a6-c174-447f-a683-0bfbe392d7bf"
-          (reference "#PWR07") (unit 1)
-        )
         (path "/40bb1606-5207-4492-95b9-876879aab2b4/6d4c49e4-58ce-454c-b038-5a90177f6bee"
           (reference "#PWR038") (unit 1)
         )
@@ -2353,7 +2311,7 @@
   (symbol (lib_id "power:+5V") (at 273.05 19.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d3024034-275e-45c4-be08-514ff3fd10a2)
-    (property "Reference" "#PWR023" (at 273.05 22.86 0)
+    (property "Reference" "#PWR037" (at 273.05 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 273.05 15.24 0)
@@ -2368,9 +2326,6 @@
     (pin "1" (uuid ddd30c89-a184-45c9-9d1d-045f0b3077a0))
     (instances
       (project "EffectsPaddleBoard"
-        (path "/40bb1606-5207-4492-95b9-876879aab2b4"
-          (reference "#PWR023") (unit 1)
-        )
         (path "/40bb1606-5207-4492-95b9-876879aab2b4/6d4c49e4-58ce-454c-b038-5a90177f6bee"
           (reference "#PWR037") (unit 1)
         )
@@ -2416,7 +2371,7 @@
   (symbol (lib_id "power:GND") (at 261.62 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dcc79e06-9ff6-4d2c-a351-c5a472e62975)
-    (property "Reference" "#PWR07" (at 261.62 97.79 0)
+    (property "Reference" "#PWR024" (at 261.62 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 261.62 96.52 0)
@@ -2431,9 +2386,6 @@
     (pin "1" (uuid 249276bd-868e-4ce3-a8f2-1d8d0f0a4bcb))
     (instances
       (project "EffectsPaddleBoard"
-        (path "/40bb1606-5207-4492-95b9-876879aab2b4/430de8a6-c174-447f-a683-0bfbe392d7bf"
-          (reference "#PWR07") (unit 1)
-        )
         (path "/40bb1606-5207-4492-95b9-876879aab2b4/6d4c49e4-58ce-454c-b038-5a90177f6bee"
           (reference "#PWR024") (unit 1)
         )
@@ -2444,7 +2396,7 @@
   (symbol (lib_id "power:+3.3V") (at 117.475 88.265 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e119f9a9-451a-4615-8017-679357f247fe)
-    (property "Reference" "#PWR04" (at 117.475 92.075 0)
+    (property "Reference" "#PWR080" (at 117.475 92.075 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 117.475 84.455 0)
@@ -2459,9 +2411,6 @@
     (pin "1" (uuid 41c71454-1897-4e71-885a-c857a91d5795))
     (instances
       (project "EffectsPaddleBoard"
-        (path "/40bb1606-5207-4492-95b9-876879aab2b4/430de8a6-c174-447f-a683-0bfbe392d7bf"
-          (reference "#PWR04") (unit 1)
-        )
         (path "/40bb1606-5207-4492-95b9-876879aab2b4/6d4c49e4-58ce-454c-b038-5a90177f6bee"
           (reference "#PWR080") (unit 1)
         )
@@ -2577,7 +2526,7 @@
   (symbol (lib_id "power:GND") (at 262.89 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f246bc4f-6b84-4b83-bee2-e8919f163e9d)
-    (property "Reference" "#PWR07" (at 262.89 139.7 0)
+    (property "Reference" "#PWR025" (at 262.89 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 262.89 138.43 0)
@@ -2592,9 +2541,6 @@
     (pin "1" (uuid d00ea342-85f5-4b68-8c6a-387d70738567))
     (instances
       (project "EffectsPaddleBoard"
-        (path "/40bb1606-5207-4492-95b9-876879aab2b4/430de8a6-c174-447f-a683-0bfbe392d7bf"
-          (reference "#PWR07") (unit 1)
-        )
         (path "/40bb1606-5207-4492-95b9-876879aab2b4/6d4c49e4-58ce-454c-b038-5a90177f6bee"
           (reference "#PWR025") (unit 1)
         )
