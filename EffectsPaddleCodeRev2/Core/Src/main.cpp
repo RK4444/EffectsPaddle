@@ -31,7 +31,9 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-
+const static int bufSize = 128;
+const float INT16_TO_FLOAT = 1.0f/32768.0f;
+const float FLOAT_TO_INT16 = 32768.0f;
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -51,7 +53,12 @@ DMA_HandleTypeDef hdma_i2s2_ext_rx;
 UART_HandleTypeDef huart5;
 
 /* USER CODE BEGIN PV */
+int16_t adcData[bufSize];
+int16_t dacData[bufSize];
 
+static volatile int16_t *inBufPtr;
+static volatile int16_t *outBufPtr = &adcData[0];
+bool dataReadyFlag = false;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -68,15 +75,51 @@ static void MX_UART5_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+void HAL_I2SEx_TxRxHalfCpltCallback(I2S_HandleTypeDef *hi2s) {
+	inBufPtr = &adcData[0];
+	outBufPtr = &dacData[0];
 
+	dataReadyFlag = true;
+}
+
+void HAL_I2SEx_TxRxCpltCallback(I2S_HandleTypeDef *hi2s) {
+	inBufPtr = &adcData[bufSize/2];
+	outBufPtr = &dacData[bufSize/2];
+
+	dataReadyFlag = true;
+}
+
+void processData(){
+	static float leftIn, leftOut, rightIn, rightOut;
+
+	for (int i = 0; i < bufSize/2-1; i += 2) {
+		leftIn = INT16_TO_FLOAT * inBufPtr[i];
+		if (leftIn > 1.0f) {
+			leftIn -= 2.0f;
+		}
+		leftOut = leftIn;
+
+		outBufPtr[i] = (int16_t)(FLOAT_TO_INT16 * leftOut);
+
+		rightIn = INT16_TO_FLOAT * inBufPtr[i];
+		if (rightIn > 1.0f) {
+			rightIn -= 2.0f;
+		}
+		rightOut = rightIn;
+
+		outBufPtr[i+1] = (int16_t)(FLOAT_TO_INT16 * rightOut);
+
+	}
+
+	dataReadyFlag = false;
+}
 /* USER CODE END 0 */
 
 /**
   * @brief  The application entry point.
   * @retval int
   */
-int main(void)
-{
+int main(void) {
   /* USER CODE BEGIN 1 */
 
   /* USER CODE END 1 */
@@ -105,7 +148,10 @@ int main(void)
   MX_I2S2_Init();
   MX_UART5_Init();
   /* USER CODE BEGIN 2 */
-
+  HAL_StatusTypeDef status = HAL_I2SEx_TransmitReceive_DMA(&hi2s2, (uint16_t *)dacData, (uint16_t *)adcData, bufSize);
+  if (status != HAL_StatusTypeDef::HAL_OK) {
+	return -1;
+}
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -113,7 +159,9 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
+	  if (dataReadyFlag) {
+		processData();
+	}
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
@@ -136,11 +184,10 @@ void SystemClock_Config(void)
   /** Initializes the RCC Oscillators according to the specified parameters
   * in the RCC_OscInitTypeDef structure.
   */
-  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI;
-  RCC_OscInitStruct.HSIState = RCC_HSI_ON;
-  RCC_OscInitStruct.HSICalibrationValue = RCC_HSICALIBRATION_DEFAULT;
+  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSE;
+  RCC_OscInitStruct.HSEState = RCC_HSE_ON;
   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
-  RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSI;
+  RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
   RCC_OscInitStruct.PLL.PLLM = 8;
   RCC_OscInitStruct.PLL.PLLN = 168;
   RCC_OscInitStruct.PLL.PLLP = RCC_PLLP_DIV2;

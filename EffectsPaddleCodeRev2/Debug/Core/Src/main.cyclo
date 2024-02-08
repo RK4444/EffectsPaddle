@@ -1,0 +1,12 @@
+main.cpp:78:6:void HAL_I2SEx_TxRxHalfCpltCallback(I2S_HandleTypeDef*)	1
+main.cpp:85:6:void HAL_I2SEx_TxRxCpltCallback(I2S_HandleTypeDef*)	1
+main.cpp:92:6:void processData()	4
+main.cpp:122:5:int main()	3
+main.cpp:174:6:void SystemClock_Config()	3
+main.cpp:220:13:void MX_ADC1_Init()	3
+main.cpp:272:13:void MX_I2C3_Init()	2
+main.cpp:306:13:void MX_I2S2_Init()	2
+main.cpp:340:13:void MX_UART5_Init()	2
+main.cpp:371:13:void MX_DMA_Init()	1
+main.cpp:392:13:void MX_GPIO_Init()	1
+main.cpp:433:6:void Error_Handler()	1
