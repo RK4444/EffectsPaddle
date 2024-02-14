@@ -12,7 +12,7 @@
   )
 
   (lib_symbols
-    (symbol "Mechanical:Fiducial" (in_bom yes) (on_board yes)
+    (symbol "EffectsPaddleBoard:Fiducial" (in_bom yes) (on_board yes)
       (property "Reference" "FID" (at 0 5.08 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -41,7 +41,7 @@
         )
       )
     )
-    (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "EffectsPaddleBoard:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "H" (at 0 5.08 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -87,7 +87,7 @@
     (uuid a43e5fbd-e097-46d1-9ddb-bdd1c1667e51)
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 248.92 26.67 0) (unit 1)
+  (symbol (lib_id "EffectsPaddleBoard:MountingHole") (at 248.92 26.67 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07641a35-9c9a-4829-9da9-2c005c0880b2)
     (property "Reference" "H2" (at 251.46 26.035 0)
@@ -120,7 +120,7 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 226.06 38.735 0) (unit 1)
+  (symbol (lib_id "EffectsPaddleBoard:MountingHole") (at 226.06 38.735 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4d82e6c9-3485-40f2-ae89-ae946e9860c3)
     (property "Reference" "H3" (at 228.6 38.1 0)
@@ -153,7 +153,7 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:Fiducial") (at 227.965 53.34 0) (unit 1)
+  (symbol (lib_id "EffectsPaddleBoard:Fiducial") (at 227.965 53.34 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 91c24a64-846e-40bb-8436-ae46c85c76d4)
     (property "Reference" "FID1" (at 231.14 52.705 0)
@@ -177,7 +177,7 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 226.06 26.67 0) (unit 1)
+  (symbol (lib_id "EffectsPaddleBoard:MountingHole") (at 226.06 26.67 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 93da3211-d808-4267-b9dc-8cd825c99b43)
     (property "Reference" "H1" (at 228.6 26.035 0)
@@ -210,7 +210,7 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:Fiducial") (at 264.16 54.61 0) (unit 1)
+  (symbol (lib_id "EffectsPaddleBoard:Fiducial") (at 264.16 54.61 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ace58f48-ec6d-46a1-b72e-3b932b7c9399)
     (property "Reference" "FID3" (at 267.335 53.975 0)
@@ -234,7 +234,7 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 248.92 38.735 0) (unit 1)
+  (symbol (lib_id "EffectsPaddleBoard:MountingHole") (at 248.92 38.735 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bc0ade88-bb67-47de-97a8-416b41940a2c)
     (property "Reference" "H4" (at 251.46 38.1 0)
@@ -267,7 +267,7 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:Fiducial") (at 246.38 53.975 0) (unit 1)
+  (symbol (lib_id "EffectsPaddleBoard:Fiducial") (at 246.38 53.975 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ff6725dc-7db9-40df-a21c-15716146732c)
     (property "Reference" "FID2" (at 249.555 53.34 0)

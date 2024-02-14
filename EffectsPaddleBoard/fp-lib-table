@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "EffectsPaddleBoard")(type "KiCad")(uri "${KIPRJMOD}/EffectsPaddleBoard.pretty")(options "")(descr ""))
+)

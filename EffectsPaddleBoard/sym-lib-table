@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "EffectsPaddleBoard")(type "KiCad")(uri "${KIPRJMOD}/EffectsPaddleBoard.kicad_sym")(options "")(descr ""))
+)
