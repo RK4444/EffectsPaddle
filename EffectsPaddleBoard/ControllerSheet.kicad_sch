@@ -3206,7 +3206,7 @@
     (property "Value" "SW_Push" (at 268.605 141.605 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Button_Switch_THT:SW_CW_GPTS203211B" (at 261.62 143.51 0)
+    (property "Footprint" "EffectsPaddleBoard:SW_DIP_SPSTx01_Piano_10.8x4.1mm_W7.62mm_P2.54mm" (at 261.62 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 261.62 143.51 0)
