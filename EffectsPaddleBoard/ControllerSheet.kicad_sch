@@ -7296,7 +7296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributer Link" "https://www.mouser.ch/ProductDetail/Epson-Timing/SG3225CAN-16.0000M-TJGA3?qs=W%2FMpXkg%252BdQ43Tw%252BixNK2Iw%3D%3D"
+		(property "Distributer Link" "https://www.mouser.ch/ProductDetail/ABRACON/ABM8-16000MHZ-B2-T?qs=H8AWquzS%2FlMP55oyx0gddg%3D%3D&mgh=1&utm_id=19994302035&gad_source=1&gclid=CjwKCAiAxaCvBhBaEiwAvsLmWNBqWPXTvfSak4t3wiz9syGwiagnBuou7zGS8mMES1DNn5A8_tbzQRoCKRIQAvD_BwE"
 			(at 248.92 99.06 0)
 			(effects
 				(font
@@ -7305,7 +7305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Epson Timing"
+		(property "Manufacturer" "Abracon"
 			(at 248.92 99.06 0)
 			(effects
 				(font
@@ -7314,7 +7314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "SG3225CAN 16.0000M-TJGA3"
+		(property "Manufacturer Part Number" "ABM8-16.000MHZ-B2-T"
 			(at 248.92 99.06 0)
 			(effects
 				(font
@@ -7754,7 +7754,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10p"
+		(property "Value" "9p"
 			(at 262.89 109.855 0)
 			(effects
 				(font
@@ -8621,7 +8621,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10p"
+		(property "Value" "9p"
 			(at 230.505 109.855 0)
 			(effects
 				(font
