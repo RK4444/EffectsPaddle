@@ -5100,6 +5100,26 @@
 		)
 		(uuid "efa5f598-ffae-4f82-be2b-b0af41b68583")
 	)
+	(label "Boot3V3"
+		(at 35.56 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "897adb53-ab5c-4a52-8b6d-04659ec18dc5")
+	)
+	(label "BootGND"
+		(at 35.56 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fea6f07d-954b-4584-8076-ddde25a77a0e")
+	)
 	(global_label "OSC_PH1"
 		(shape input)
 		(at 262.89 98.425 0)
